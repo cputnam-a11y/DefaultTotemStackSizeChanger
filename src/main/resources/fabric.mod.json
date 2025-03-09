@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "defaulttotemstacksizechanger",
+  "version": "${version}",
+  "name": "DefaultTotemStackSizeChanger",
+  "description": "... Did you expect something here?",
+  "authors": [
+    "cputnam-a11y"
+  ],
+  "contact": {},
+  "license": "ARR",
+  "icon": "assets/defaulttotemstacksizechanger/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "defaulttotemstacksizechanger.DefaultTotemStackSizeChanger"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
